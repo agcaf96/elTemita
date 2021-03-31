@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <script src="js/bootstrap.js"></script>
+
+    <script src="js/bootstrap.bundle.js"></script>
+
+    <link href="css/estilos.css" rel="stylesheet" />
+    <title>ElTemita</title>
+</head>
+<body>
+
+    <h5>Generos musicales</h5>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <div class="genero-rock">
+                    <div class="imagen">
+                        <img src="imagenes/jazz.jpg" class="img-thumbnail" alt="...">
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Jazz
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="billie-holiday.html">Billie Holiday</a></li>
+                        <li><a class="dropdown-item" href="#">Louis Armstrong</a></li>
+                        <li><a class="dropdown-item" href="#">Miles Davis</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="nombre"> <label> Rock </label> </div>
+                <div class="imagen">
+                    <img src="imagenes/rock.jpg" class="img-thumbnail" alt="...">
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="nombre"> <label> Funk </label> </div>
+                <div class="imagen">
+                    <img src="imagenes/funk.jpg" class="img-thumbnail" alt="...">
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="nombre"> <label> Pop </label> </div>
+                <div class="imagen">
+                    <img src="imagenes/pop.jpg" class="img-thumbnail" alt="...">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <div class="nombre"> <label> Cumbia </label> </div>
+                <div class="imagen">
+                    <img src="imagenes/cumbia.jpg" class="img-thumbnail" alt="...">
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="nombre"> <label> Reggae </label> </div>
+                <div class="imagen">
+                    <img src="imagenes/reggae.jpg" class="img-thumbnail" alt="...">
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="nombre"> <label> Electrónica </label> </div>
+                <div class="imagen">
+                    <img src="imagenes/electronica.jpg" class="img-thumbnail" alt="...">
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="nombre"> <label> Hip Hop </label> </div>
+                <div class="imagen">
+                    <img src="imagenes/hiphop.jpg" class="img-thumbnail" alt="...">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+        </div>
+        <div class="row" style="margin:5px">
+            <div class="col-sm-12 col-lg-2">
+                <button id="enviar" class="btn-dark form-control" onclick="alerta(document.getElementById('nombre').value, document.getElementById('apellido').value)"> Enviar</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

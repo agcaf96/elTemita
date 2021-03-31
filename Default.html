@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <script src="js/bootstrap.js"></script>
+
+    <script src="js/bootstrap.bundle.js"></script>
+
+    <link href="css/estilos.css" rel="stylesheet" />
+    <title>ElTemita</title>
+</head>
+<body>
+
+    <h5>Generos musicales</h5>
+    
+
+    <div class="container" style="margin:15px">
+        <div class="row">
+            <div class="col-sm-12 col-md-2 col-lg-1">
+                <label>Nombre: </label>
+            </div>
+            <div class="col-sm-12 col-md-10 col-lg-11">
+                <input id="nombre" type="text" class="form-control colorArriba" />
+            </div>
+
+            <div class="col-sm-12 col-md-2 col-lg-1">
+                <label>Apellido: </label>
+            </div>
+            <div class="col-sm-12 col-md-10 col-lg-11">
+                <input id="apellido" type="text" class="form-control colorArriba" />
+            </div>
+
+            <div class="col-sm-12 col-md-2 col-lg-1">
+                <label>Genero: </label>
+            </div>
+            <div class="col-sm-12 col-md-10 col-lg-11">
+                <input id="genero" type="text" class="form-control colorArriba" />
+            </div>
+        </div>
+        <div class="row" style="margin:5px">
+            <div class="col-sm-12 col-lg-2">
+                <button id="enviar" class="btn-dark form-control" onclick="alerta(document.getElementById('nombre').value, document.getElementById('apellido').value)"> Enviar</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
+<style>
+    .colorArriba:hover {
+        background-color: bisque;
+    }
+</style>
+
+<script>
+    function alerta(_nombre, _apellido) {
+        //var nombreCompleto = _nombre + " " + _apellido;
+        //document.getElementById("nombre").value = nombreCompleto;
+        //var infoCliente = document.getElementById("info").value;
+        if (condición) sentencia1[else sentencia2]
+        alert(_nombre + " " + _apellido);
+    }
+</script>
+<FORM name=form action="logIn.html">
+
+    <P>Usuario:    <INPUT type=text name=login>
+    <P>
+        Contraseña: <INPUT type=password name=password>
+        <INPUT onclick=go() type=button value=Acceder>
+
+</FORM>
+<script>
+    function go() {
+
+        if (document.form.password.value == 'contra' && document.form.login.value == 'usuario') {
+            document.form.submit();
+            alert("OK");
+        }
+        else {
+            alert("Porfavor ingrese, nombre de usuario y contraseña correctos.");
+        }
+    }
+
+</script>

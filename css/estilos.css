@@ -1,0 +1,16 @@
+﻿
+body {
+    background-image: url("musica.jpg");
+    background-size: cover;
+}
+h5 {
+    text-align: center;
+}
+.nombre{
+    margin-left: 100px;
+}
+.imagen {
+    width: 200px;
+    height: 200px;
+}
+
