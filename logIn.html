@@ -11,19 +11,22 @@
     <title>ElTemita</title>
 </head>
 <body>
-
-    <h5>Generos musicales</h5>
+    <header>
+        <h5>Generos musicales</h5>
+    </header>
+    
     <div class="container">
         <div class="row">
-            <div class="col-sm">
-                <div class="genero-rock">
-                    <div class="imagen">
-                        <img src="imagenes/jazz.jpg" class="img-thumbnail" alt="...">
-                    </div>
-                </div>
+            <div class="col-sm genero">
+                <img src="imagenes/jazz.jpg" class="rounded" class="center" alt="..."> <!-- le saque el img-thumbnail a class -->
                 <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                        Jazz
+                    <button 
+                        class="btn btn-secondary dropdown-toggle" 
+                        type="button" 
+                        id="dropdownMenuButton1" 
+                        data-bs-toggle="dropdown" 
+                        aria-expanded="false">
+                            Jazz
                     </button>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                         <li><a class="dropdown-item" href="billie-holiday.html">Billie Holiday</a></li>
@@ -32,51 +35,54 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-sm">
+
+            <div class="col-sm genero">
                 <div class="nombre"> <label> Rock </label> </div>
+                <img src="imagenes/rock.jpg" class="rounded center" alt="...">
+            </div>
+
+            <div class="col-sm genero">
+                <div class="nombre"> Funk </div>
                 <div class="imagen">
-                    <img src="imagenes/rock.jpg" class="img-thumbnail" alt="...">
+                    <img src="imagenes/funk.jpg" class="rounded" alt="...">
                 </div>
             </div>
-            <div class="col-sm">
-                <div class="nombre"> <label> Funk </label> </div>
+
+            <div class="col-sm genero">
+                <div class="nombre"> Pop </div>
                 <div class="imagen">
-                    <img src="imagenes/funk.jpg" class="img-thumbnail" alt="...">
+                    <img src="imagenes/pop.jpg" class="rounded" alt="...">
                 </div>
             </div>
-            <div class="col-sm">
-                <div class="nombre"> <label> Pop </label> </div>
-                <div class="imagen">
-                    <img src="imagenes/pop.jpg" class="img-thumbnail" alt="...">
-                </div>
-            </div>
+
         </div>
         <div class="row">
-            <div class="col-sm">
-                <div class="nombre"> <label> Cumbia </label> </div>
+            <div class="col-sm genero">
+                <div class="nombre"> Cumbia  </div>
                 <div class="imagen">
-                    <img src="imagenes/cumbia.jpg" class="img-thumbnail" alt="...">
+                    <img src="imagenes/cumbia.jpg" class="rounded" alt="...">
                 </div>
             </div>
-            <div class="col-sm">
-                <div class="nombre"> <label> Reggae </label> </div>
+            <div class="col-sm genero">
+                <div class="nombre"> Reggae </div>
                 <div class="imagen">
-                    <img src="imagenes/reggae.jpg" class="img-thumbnail" alt="...">
+                    <img src="imagenes/reggae.jpg" class="rounded" alt="...">
                 </div>
             </div>
-            <div class="col-sm">
-                <div class="nombre"> <label> Electrónica </label> </div>
+            <div class="col-sm genero">
+                <div class="nombre"> Electrónica  </div>
                 <div class="imagen">
-                    <img src="imagenes/electronica.jpg" class="img-thumbnail" alt="...">
+                    <img src="imagenes/electronica.jpg" class="rounded" alt="...">
                 </div>
             </div>
-            <div class="col-sm">
-                <div class="nombre"> <label> Hip Hop </label> </div>
+            <div class="col-sm genero">
+                <div class="nombre">  Hip Hop </div>
                 <div class="imagen">
-                    <img src="imagenes/hiphop.jpg" class="img-thumbnail" alt="...">
+                    <img src="imagenes/hiphop.jpg" class="rounded" alt="...">
                 </div>
             </div>
         </div>
+    </div>
     </div>
 
     
@@ -88,5 +94,7 @@
         </div>
     </div>
 
+
+    <footer>asd</footer>
 </body>
 </html>
